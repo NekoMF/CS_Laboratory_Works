@@ -3,18 +3,17 @@ package main
 import (
 	"log"
 
-	"github.com/NekoMF/CS_Laboratory_Works/useful"
+	"github.com/NekoMF/CS_Laboratory_Works/playfair"
 )
 
 func main() {
 
 	str := "I n   st r u m e      nt     s"
+	key := "monarchy"
+
 	log.Println(" This is the string before encryption : ", str)
-	//key := "Monarchy"
 
-	//playfair.Encrypt(str, key)
+	playfairEncrypted := playfair.Encrypt(key, str)
+	log.Println(" This is the string after playfair encryption : ", playfairEncrypted)
 
-	str = useful.CutBlankSpaces(str)
-
-	log.Println(" This is the string after encryption : ", str)
 }
