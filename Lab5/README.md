@@ -1,7 +1,7 @@
 # Topic: Web Authentication & Authorisation.
 
 ### Course: Cryptography & Security
-### Author: Marcel Vlasenco
+### Author: Savva Nicu
 
 ----
 
